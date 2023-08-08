@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"; 
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/Azure.svg";
+import Azure from "../../assets/CMACGM.svg";
 
 import {
     ChatMessage,
@@ -174,7 +174,8 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer to queries related to CMA CGM APAC</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>Presented by APAC CCoE</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
